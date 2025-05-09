@@ -1,0 +1,16 @@
+ aiohttp
+fastapi
+gradio
+huggingface_hub
+pydantic
+pandas
+numpy
+torch
+rich
+packaging
+python-dotenv
+selenium
+helium
+opencv-python
+Pillow
+tokenizers
