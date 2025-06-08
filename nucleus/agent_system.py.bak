@@ -1,0 +1,105 @@
+
+import asyncio
+import time
+from typing import Any, Dict, List, Optional, Callable
+from .prompt_engine import PromptEngine
+
+class AgentSystem:
+    """
+    AgentSystem: генерация плана задачи (через LLM или rule-based), выполнение шагов через навыки,
+    расширенная история и публикация событий (trace, progress, error, result) на event_bus.
+    """
+
+    def __init__(self, event_bus, history: List[Dict], llm_fn: Optional[Callable[[str], str]] = None, prompt_engine: Optional[PromptEngine] = None):
+        self.event_bus = event_bus
+        self.history = history
+        self.skill_manager = None  # Inject после создания
+        self.llm_fn = llm_fn      # Опционально: внешняя функция генерации (LLM, промпт-роутер)
+        self.prompt_engine = prompt_engine or PromptEngine()
+
+    async def plan_task(self, user_query: str, task_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """
+        Генерирует план задачи: если есть llm_fn и промпт — через LLM, иначе fallback (один шаг).
+        Публикует trace и error в event_bus, дополняет историю.
+        """
+        plan = None
+        error = None
+        plan_event = {"role": "plan", "content": "", "type": "plan", "meta": {"task_id": task_id or ""}, "timestamp": time.time()}
+        try:
+            if self.llm_fn and self.prompt_engine:
+                prompt = self.prompt_engine.build("task_planner", {"task": user_query})
+                plan_str = await self.llm_fn(prompt)
+                # Пробуем распарсить как yaml/json
+                import yaml
+                try:
+                    plan = yaml.safe_load(plan_str) if isinstance(plan_str, str) else plan_str
+                except Exception:
+                    plan = None
+            if not (isinstance(plan, list) and plan):
+                plan = [{
+                    "intent": "Execute user request",
+                    "description": user_query,
+                    "input_type": "text",
+                    "output_type": "text",
+                    "tags": []
+                }]
+            plan_event["content"] = str(plan)
+            self.history.append(plan_event)
+            await self.event_bus.publish(type(self.event_bus).Event("trace", plan_event, plan_event["meta"]))
+        except Exception as exc:
+            error = f"Plan error: {exc}"
+            err_event = {"role": "system", "content": error, "type": "error", "meta": {"task_id": task_id or ""}, "timestamp": time.time()}
+            self.history.append(err_event)
+            await self.event_bus.publish(type(self.event_bus).Event("error", error, err_event["meta"]))
+            plan = [{
+                "intent": "Execute user request",
+                "description": user_query,
+                "input_type": "text",
+                "output_type": "text",
+                "tags": []
+            }]
+        return plan
+
+    async def execute_step(self, step: Dict[str, Any], task_id: Optional[str] = None) -> Any:
+        """
+        Выполняет шаг задачи через подходящий скилл, публикует trace/progress/error/result, расширяет историю.
+        """
+        meta = {"task_id": task_id or ""}
+        # Прогресс-эвент
+        progress_event = {"role": "system", "content": f"Executing step: {step}", "type": "progress", "meta": meta, "timestamp": time.time()}
+        self.history.append(progress_event)
+        await self.event_bus.publish(type(self.event_bus).Event("progress", progress_event, meta))
+
+        if not self.skill_manager:
+            error = "Skill manager is not set in AgentSystem."
+            err_event = {"role": "system", "content": error, "type": "error", "meta": meta, "timestamp": time.time()}
+            self.history.append(err_event)
+            await self.event_bus.publish(type(self.event_bus).Event("error", error, meta))
+            return None
+
+        skill = self.skill_manager.find_skill(step)
+        if not skill:
+            err = f"No suitable skill found for step: {step}"
+            err_event = {"role": "system", "content": err, "type": "error", "meta": meta, "timestamp": time.time()}
+            self.history.append(err_event)
+            await self.event_bus.publish(type(self.event_bus).Event("error", err, meta))
+            return None
+
+        try:
+            result = await skill.execute_async(step, {"task_id": task_id})
+            skill_event = {
+                "role": "skill",
+                "content": f"{skill.name}: {result}",
+                "meta": meta,
+                "type": "result",
+                "timestamp": time.time()
+            }
+            self.history.append(skill_event)
+            await self.event_bus.publish(type(self.event_bus).Event("trace", skill_event, meta))
+            return result
+        except Exception as exc:
+            err = f"Skill error ({skill.name}): {exc}"
+            err_event = {"role": "system", "content": err, "type": "error", "meta": meta, "timestamp": time.time()}
+            self.history.append(err_event)
+            await self.event_bus.publish(type(self.event_bus).Event("error", err, meta))
+            return None

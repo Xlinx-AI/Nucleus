@@ -1,7 +1,7 @@
 
 import asyncio
 import uuid
-from typing import Dict, Optional, Callable
+from typing import Any, Dict, Optional, Callable
 
 from .event_bus import EventBus, Event
 from .agent_system import AgentSystem
@@ -14,7 +14,6 @@ from .ui_server import UIServer
 from .prompt_engine import PromptEngine
 from .utils import ContextHistory
 
-
 class ApplicationCore:
     """
     This is the agent core. It glues together event bus, skill management,
@@ -22,10 +21,7 @@ class ApplicationCore:
     If you need something more, just add it, but don't blame me if it breaks.
     """
 
-    def __init__(self,
-                 llm_fn: Optional[Callable[[str],
-                                           str]] = None,
-                 prompt_engine: Optional[PromptEngine] = None):
+    def __init__(self, llm_fn: Optional[Callable[[str], str]] = None, prompt_engine: Optional[PromptEngine] = None):
         # Event bus is where everything yells at each other asynchronously.
         self.event_bus = EventBus()
         # Now we actually get a real history, not just a sad list.
@@ -35,11 +31,7 @@ class ApplicationCore:
         # PromptEngine is here, but don't expect magic.
         self.prompt_engine = prompt_engine or PromptEngine()
         # AgentSystem does the planning and step execution, fueled by caffeine.
-        self.agent_system = AgentSystem(
-            self.event_bus,
-            self.history,
-            llm_fn=llm_fn,
-            prompt_engine=self.prompt_engine)
+        self.agent_system = AgentSystem(self.event_bus, self.history, llm_fn=llm_fn, prompt_engine=self.prompt_engine)
         self.skill_manager = SkillManager(llm_adapter=llm_fn)
         self.data_pipeline = DataPipeline(self.history)
         self.vector_db = VectorDatabase()
@@ -67,8 +59,7 @@ class ApplicationCore:
         - executes steps (if skills exist)
         - logs every embarrassing failure
         """
-        task_id = event.meta.get(
-            "task_id") if event.meta else str(uuid.uuid4())
+        task_id = event.meta.get("task_id") if event.meta else str(uuid.uuid4())
         user_query = event.payload
         meta = {"task_id": task_id}
         # Log user input for the ages.
@@ -81,10 +72,9 @@ class ApplicationCore:
         # Execute steps, one by one, even if you want to quit.
         results = []
         for idx, step in enumerate(plan):
-            # progress = {"current": idx + 1, "total": len(plan), "step": step, "task_id": task_id}
+            progress = {"current": idx + 1, "total": len(plan), "step": step, "task_id": task_id}
             await self.event_bus.publish(Event("progress", {"role": "system", "content": f"Executing step {idx+1}/{len(plan)}: {step}", "type": "progress", "meta": meta}, meta))
-            self.history.add_thought(
-                f"Executing step {idx+1}: {step}", meta=meta)
+            self.history.add_thought(f"Executing step {idx+1}: {step}", meta=meta)
             result = await self.agent_system.execute_step(step, task_id)
             results.append(result)
         self.history.add_assistant(f"Task results: {results}", meta=meta)
@@ -100,11 +90,7 @@ class ApplicationCore:
         chunks = self.data_pipeline.chunk(files, **params)
         vectors = self.data_pipeline.ingest_chunks(chunks, **params)
         self.vector_db.store_vectors(vectors)
-        self.history.add_message(
-            "pipeline",
-            f"Ingested {len(vectors)} chunks",
-            type="pipeline",
-            meta=event.meta)
+        self.history.add_message("pipeline", f"Ingested {len(vectors)} chunks", type="pipeline", meta=event.meta)
 
     async def handle_crawl(self, event: Event):
         """
@@ -113,12 +99,8 @@ class ApplicationCore:
         """
         crawl_type = event.payload.get("type")
         target = event.payload.get("target")
-        # crawled_data = await self.crawler_hub.crawl(crawl_type, target)
-        self.history.add_message(
-            "crawler",
-            f"Crawled {crawl_type} target={target}",
-            type="crawler",
-            meta=event.meta)
+        crawled_data = await self.crawler_hub.crawl(crawl_type, target)
+        self.history.add_message("crawler", f"Crawled {crawl_type} target={target}", type="crawler", meta=event.meta)
 
     async def handle_skill_generate(self, event: Event):
         """
@@ -126,11 +108,7 @@ class ApplicationCore:
         """
         skill_desc = event.payload
         new_skill = await self.skill_manager.generate_skill(skill_desc)
-        self.history.add_message(
-            "skill",
-            f"Generated skill: {new_skill}",
-            type="skill",
-            meta=event.meta)
+        self.history.add_message("skill", f"Generated skill: {new_skill}", type="skill", meta=event.meta)
 
     async def handle_plan(self, event: Event):
         """
@@ -140,12 +118,7 @@ class ApplicationCore:
         plan = await self.agent_system.plan_task(task)
         self.history.add_plan(f"Re-planned: {plan}", meta=event.meta)
 
-    def _log(
-            self,
-            role: str,
-            content: str,
-            meta: Optional[Dict] = None,
-            msg_type: str = "msg"):
+    def _log(self, role: str, content: str, meta: Optional[Dict] = None, msg_type: str = "msg"):
         """
         This is kept for backward compatibility. It just dumps to ContextHistory now.
         """
@@ -162,9 +135,5 @@ class ApplicationCore:
         Publishes a new task to the event bus for async handling.
         """
         task_id = str(uuid.uuid4())
-        asyncio.ensure_future(
-            self.event_bus.publish(
-                Event(
-                    "task", user_query, {
-                        "task_id": task_id})))
+        asyncio.ensure_future(self.event_bus.publish(Event("task", user_query, {"task_id": task_id})))
         return task_id

@@ -1,0 +1,6 @@
+nucleus/app_core.py:54:80: E501 line too long (97 > 79 characters)
+nucleus/app_core.py:76:80: E501 line too long (129 > 79 characters)
+nucleus/app_core.py:80:80: E501 line too long (128 > 79 characters)
+nucleus/app_core.py:84:80: E501 line too long (99 > 79 characters)
+nucleus/app_core.py:85:80: E501 line too long (177 > 79 characters)
+nucleus/app_core.py:150:80: E501 line too long (85 > 79 characters)

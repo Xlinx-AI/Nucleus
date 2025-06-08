@@ -1,13 +1,11 @@
 """Main entry point for the Universal Iterative AI Hub.
 
-Initializes and connects all core modules, sets up dependencies,
-and starts the UI server.
+Initializes and connects all core modules, sets up dependencies, and starts the UI server.
 All comments and docstrings are in English. No legacy code remains.
 """
 
 from nucleus.app_core import ApplicationCore
-# SkillManager import removed as it was unused
-
+from nucleus.skill_manager import SkillManager
 
 def main():
     # Initialize core application
@@ -18,7 +16,6 @@ def main():
 
     # Start the UI server (FastAPI)
     app_core.ui_server.run(host="127.0.0.1", port=8080)
-
 
 if __name__ == "__main__":
     main()

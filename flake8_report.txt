@@ -1,0 +1,910 @@
+main.py:3:80: E501 line too long (90 > 79 characters)
+main.py:8:1: F401 'nucleus.skill_manager.SkillManager' imported but unused
+main.py:10:1: E302 expected 2 blank lines, found 1
+main.py:20:1: E305 expected 2 blank lines after class or function definition, found 1
+main.py:21:11: W292 no newline at end of file
+nucleus/agent_system.py:2:1: F401 'asyncio' imported but unused
+nucleus/agent_system.py:7:1: E302 expected 2 blank lines, found 1
+nucleus/agent_system.py:9:80: E501 line too long (98 > 79 characters)
+nucleus/agent_system.py:10:80: E501 line too long (91 > 79 characters)
+nucleus/agent_system.py:13:80: E501 line too long (148 > 79 characters)
+nucleus/agent_system.py:17:80: E501 line too long (95 > 79 characters)
+nucleus/agent_system.py:20:80: E501 line too long (102 > 79 characters)
+nucleus/agent_system.py:22:80: E501 line too long (97 > 79 characters)
+nucleus/agent_system.py:27:80: E501 line too long (130 > 79 characters)
+nucleus/agent_system.py:30:80: E501 line too long (87 > 79 characters)
+nucleus/agent_system.py:35:80: E501 line too long (94 > 79 characters)
+nucleus/agent_system.py:48:80: E501 line too long (109 > 79 characters)
+nucleus/agent_system.py:51:80: E501 line too long (139 > 79 characters)
+nucleus/agent_system.py:53:80: E501 line too long (103 > 79 characters)
+nucleus/agent_system.py:63:80: E501 line too long (93 > 79 characters)
+nucleus/agent_system.py:65:80: E501 line too long (110 > 79 characters)
+nucleus/agent_system.py:69:80: E501 line too long (141 > 79 characters)
+nucleus/agent_system.py:71:80: E501 line too long (98 > 79 characters)
+nucleus/agent_system.py:75:80: E501 line too long (117 > 79 characters)
+nucleus/agent_system.py:77:80: E501 line too long (90 > 79 characters)
+nucleus/agent_system.py:83:80: E501 line too long (115 > 79 characters)
+nucleus/agent_system.py:85:80: E501 line too long (88 > 79 characters)
+nucleus/agent_system.py:98:80: E501 line too long (96 > 79 characters)
+nucleus/agent_system.py:102:80: E501 line too long (115 > 79 characters)
+nucleus/agent_system.py:104:80: E501 line too long (88 > 79 characters)
+nucleus/agent_system.py:105:24: W292 no newline at end of file
+nucleus/agent_types.py:6:1: E302 expected 2 blank lines, found 1
+nucleus/agent_types.py:8:80: E501 line too long (101 > 79 characters)
+nucleus/agent_types.py:25:1: E302 expected 2 blank lines, found 1
+nucleus/agent_types.py:27:80: E501 line too long (96 > 79 characters)
+nucleus/agent_types.py:35:1: E302 expected 2 blank lines, found 1
+nucleus/agent_types.py:38:80: E501 line too long (84 > 79 characters)
+nucleus/agent_types.py:52:80: E501 line too long (89 > 79 characters)
+nucleus/agent_types.py:60:80: E501 line too long (116 > 79 characters)
+nucleus/agent_types.py:69:1: E302 expected 2 blank lines, found 1
+nucleus/agent_types.py:71:80: E501 line too long (113 > 79 characters)
+nucleus/agent_types.py:84:1: E302 expected 2 blank lines, found 1
+nucleus/agent_types.py:86:80: E501 line too long (102 > 79 characters)
+nucleus/agent_types.py:92:18: W292 no newline at end of file
+nucleus/agents/cli.py:2:80: E501 line too long (94 > 79 characters)
+nucleus/agents/cli.py:6:1: F401 'os' imported but unused
+nucleus/agents/cli.py:8:1: F401 'nucleus.agents.core.IterativeAgent' imported but unused
+nucleus/agents/cli.py:13:1: E302 expected 2 blank lines, found 1
+nucleus/agents/cli.py:16:80: E501 line too long (96 > 79 characters)
+nucleus/agents/cli.py:17:80: E501 line too long (86 > 79 characters)
+nucleus/agents/cli.py:18:80: E501 line too long (85 > 79 characters)
+nucleus/agents/cli.py:19:80: E501 line too long (102 > 79 characters)
+nucleus/agents/cli.py:22:1: E302 expected 2 blank lines, found 1
+nucleus/agents/cli.py:23:80: E501 line too long (84 > 79 characters)
+nucleus/agents/cli.py:25:5: E306 expected 1 blank line before a nested definition, found 0
+nucleus/agents/cli.py:30:1: E302 expected 2 blank lines, found 1
+nucleus/agents/cli.py:51:80: E501 line too long (104 > 79 characters)
+nucleus/agents/cli.py:57:80: E501 line too long (104 > 79 characters)
+nucleus/agents/cli.py:62:1: E305 expected 2 blank lines after class or function definition, found 1
+nucleus/agents/cli.py:63:11: W292 no newline at end of file
+nucleus/agents/code_executor.py:2:80: E501 line too long (137 > 79 characters)
+nucleus/agents/code_executor.py:6:1: F401 'builtins' imported but unused
+nucleus/agents/code_executor.py:7:1: F401 'inspect' imported but unused
+nucleus/agents/code_executor.py:11:1: E302 expected 2 blank lines, found 1
+nucleus/agents/code_executor.py:14:1: E302 expected 2 blank lines, found 1
+nucleus/agents/code_executor.py:24:1: E302 expected 2 blank lines, found 1
+nucleus/agents/code_executor.py:26:80: E501 line too long (122 > 79 characters)
+nucleus/agents/code_executor.py:29:80: E501 line too long (99 > 79 characters)
+nucleus/agents/code_executor.py:30:80: E501 line too long (101 > 79 characters)
+nucleus/agents/code_executor.py:31:80: E501 line too long (113 > 79 characters)
+nucleus/agents/code_executor.py:32:80: E501 line too long (102 > 79 characters)
+nucleus/agents/code_executor.py:35:80: E501 line too long (134 > 79 characters)
+nucleus/agents/code_executor.py:41:80: E501 line too long (98 > 79 characters)
+nucleus/agents/code_executor.py:60:80: E501 line too long (84 > 79 characters)
+nucleus/agents/code_executor.py:71:80: E501 line too long (87 > 79 characters)
+nucleus/agents/code_executor.py:73:80: E501 line too long (140 > 79 characters)
+nucleus/agents/code_executor.py:74:80: E501 line too long (102 > 79 characters)
+nucleus/agents/code_executor.py:79:80: E501 line too long (84 > 79 characters)
+nucleus/agents/code_executor.py:82:45: W292 no newline at end of file
+nucleus/agents/core.py:2:80: E501 line too long (105 > 79 characters)
+nucleus/agents/core.py:7:1: F401 'inspect' imported but unused
+nucleus/agents/core.py:8:1: F401 'typing.Union' imported but unused
+nucleus/agents/core.py:10:1: F401 'nucleus.agents.memory.PlanEntry' imported but unused
+nucleus/agents/core.py:10:1: F401 'nucleus.agents.memory.SystemPromptEntry' imported but unused
+nucleus/agents/core.py:13:1: F401 'nucleus.agents.tools.tool_description' imported but unused
+nucleus/agents/core.py:18:1: E302 expected 2 blank lines, found 1
+nucleus/agents/core.py:20:80: E501 line too long (92 > 79 characters)
+nucleus/agents/core.py:37:80: E501 line too long (92 > 79 characters)
+nucleus/agents/core.py:51:80: E501 line too long (99 > 79 characters)
+nucleus/agents/core.py:55:80: E501 line too long (92 > 79 characters)
+nucleus/agents/core.py:73:1: E302 expected 2 blank lines, found 0
+nucleus/agents/core.py:75:80: E501 line too long (111 > 79 characters)
+nucleus/agents/core.py:88:80: E501 line too long (114 > 79 characters)
+nucleus/agents/core.py:94:42: F821 undefined name 'ToolInvocation'
+nucleus/agents/core.py:94:80: E501 line too long (101 > 79 characters)
+nucleus/agents/core.py:96:80: E501 line too long (116 > 79 characters)
+nucleus/agents/core.py:106:80: E501 line too long (99 > 79 characters)
+nucleus/agents/core.py:109:80: E501 line too long (83 > 79 characters)
+nucleus/agents/core.py:112:1: E302 expected 2 blank lines, found 1
+nucleus/agents/core.py:114:80: E501 line too long (95 > 79 characters)
+nucleus/agents/core.py:148:42: F821 undefined name 'ToolInvocation'
+nucleus/agents/core.py:148:80: E501 line too long (125 > 79 characters)
+nucleus/agents/core.py:171:16: F821 undefined name 'result'
+nucleus/agents/core.py:177:43: W292 no newline at end of file
+nucleus/agents/gradio_ui.py:2:80: E501 line too long (127 > 79 characters)
+nucleus/agents/gradio_ui.py:6:1: F401 'typing.List' imported but unused
+nucleus/agents/gradio_ui.py:6:1: F401 'typing.Any' imported but unused
+nucleus/agents/gradio_ui.py:8:1: E302 expected 2 blank lines, found 1
+nucleus/agents/gradio_ui.py:8:80: E501 line too long (91 > 79 characters)
+nucleus/agents/gradio_ui.py:12:80: E501 line too long (86 > 79 characters)
+nucleus/agents/gradio_ui.py:14:80: E501 line too long (86 > 79 characters)
+nucleus/agents/gradio_ui.py:18:80: E501 line too long (81 > 79 characters)
+nucleus/agents/gradio_ui.py:23:1: E302 expected 2 blank lines, found 1
+nucleus/agents/gradio_ui.py:46:30: W292 no newline at end of file
+nucleus/agents/memory.py:2:80: E501 line too long (125 > 79 characters)
+nucleus/agents/memory.py:8:1: F401 'nucleus.agents.types.NucleusTextResult' imported but unused
+nucleus/agents/memory.py:8:1: F401 'nucleus.agents.types.NucleusImageResult' imported but unused
+nucleus/agents/memory.py:8:1: F401 'nucleus.agents.types.NucleusAudioResult' imported but unused
+nucleus/agents/memory.py:8:80: E501 line too long (90 > 79 characters)
+nucleus/agents/memory.py:10:1: E302 expected 2 blank lines, found 1
+nucleus/agents/memory.py:26:1: E302 expected 2 blank lines, found 1
+nucleus/agents/memory.py:37:1: E302 expected 2 blank lines, found 1
+nucleus/agents/memory.py:52:80: E501 line too long (100 > 79 characters)
+nucleus/agents/memory.py:66:80: E501 line too long (104 > 79 characters)
+nucleus/agents/memory.py:74:80: E501 line too long (138 > 79 characters)
+nucleus/agents/memory.py:78:80: E501 line too long (107 > 79 characters)
+nucleus/agents/memory.py:79:80: E501 line too long (107 > 79 characters)
+nucleus/agents/memory.py:80:80: E501 line too long (98 > 79 characters)
+nucleus/agents/memory.py:82:80: E501 line too long (83 > 79 characters)
+nucleus/agents/memory.py:83:80: E501 line too long (120 > 79 characters)
+nucleus/agents/memory.py:86:1: E302 expected 2 blank lines, found 1
+nucleus/agents/memory.py:94:80: E501 line too long (83 > 79 characters)
+nucleus/agents/memory.py:96:80: E501 line too long (116 > 79 characters)
+nucleus/agents/memory.py:98:80: E501 line too long (118 > 79 characters)
+nucleus/agents/memory.py:101:1: E302 expected 2 blank lines, found 1
+nucleus/agents/memory.py:106:80: E501 line too long (83 > 79 characters)
+nucleus/agents/memory.py:107:80: E501 line too long (80 > 79 characters)
+nucleus/agents/memory.py:112:1: E302 expected 2 blank lines, found 1
+nucleus/agents/memory.py:116:80: E501 line too long (83 > 79 characters)
+nucleus/agents/memory.py:119:80: E501 line too long (102 > 79 characters)
+nucleus/agents/memory.py:121:1: E302 expected 2 blank lines, found 1
+nucleus/agents/memory.py:135:80: E501 line too long (108 > 79 characters)
+nucleus/agents/memory.py:135:109: W292 no newline at end of file
+nucleus/agents/models.py:2:80: E501 line too long (109 > 79 characters)
+nucleus/agents/models.py:10:1: E302 expected 2 blank lines, found 1
+nucleus/agents/models.py:17:1: E302 expected 2 blank lines, found 1
+nucleus/agents/models.py:23:1: E302 expected 2 blank lines, found 1
+nucleus/agents/models.py:29:1: E302 expected 2 blank lines, found 1
+nucleus/agents/models.py:39:1: E302 expected 2 blank lines, found 1
+nucleus/agents/models.py:47:1: E302 expected 2 blank lines, found 1
+nucleus/agents/models.py:53:1: E305 expected 2 blank lines after class or function definition, found 1
+nucleus/agents/models.py:53:1: E402 module level import not at top of file
+nucleus/agents/models.py:55:1: E302 expected 2 blank lines, found 1
+nucleus/agents/models.py:66:12: W292 no newline at end of file
+nucleus/agents/monitor.py:2:80: E501 line too long (113 > 79 characters)
+nucleus/agents/monitor.py:6:1: F401 'typing.List' imported but unused
+nucleus/agents/monitor.py:8:1: E302 expected 2 blank lines, found 1
+nucleus/agents/monitor.py:13:1: E305 expected 2 blank lines after class or function definition, found 1
+nucleus/agents/monitor.py:15:1: E302 expected 2 blank lines, found 1
+nucleus/agents/monitor.py:17:80: E501 line too long (88 > 79 characters)
+nucleus/agents/monitor.py:26:80: E501 line too long (103 > 79 characters)
+nucleus/agents/monitor.py:37:80: E501 line too long (96 > 79 characters)
+nucleus/agents/monitor.py:46:1: E302 expected 2 blank lines, found 1
+nucleus/agents/monitor.py:62:80: E501 line too long (81 > 79 characters)
+nucleus/agents/monitor.py:63:80: E501 line too long (83 > 79 characters)
+nucleus/agents/monitor.py:64:80: E501 line too long (152 > 79 characters)
+nucleus/agents/monitor.py:69:31: W292 no newline at end of file
+nucleus/agents/prompts.py:6:80: E501 line too long (123 > 79 characters)
+nucleus/agents/prompts.py:32:80: E501 line too long (104 > 79 characters)
+nucleus/agents/prompts.py:52:4: W292 no newline at end of file
+nucleus/agents/prompts.py:52:80: E501 line too long (509 > 79 characters)
+nucleus/agents/sandbox_executor.py:2:80: E501 line too long (131 > 79 characters)
+nucleus/agents/sandbox_executor.py:5:1: F401 'base64' imported but unused
+nucleus/agents/sandbox_executor.py:6:1: F401 'io.BytesIO' imported but unused
+nucleus/agents/sandbox_executor.py:9:1: E302 expected 2 blank lines, found 1
+nucleus/agents/sandbox_executor.py:12:1: E302 expected 2 blank lines, found 1
+nucleus/agents/sandbox_executor.py:14:80: E501 line too long (91 > 79 characters)
+nucleus/agents/sandbox_executor.py:16:80: E501 line too long (96 > 79 characters)
+nucleus/agents/sandbox_executor.py:25:80: E501 line too long (80 > 79 characters)
+nucleus/agents/sandbox_executor.py:32:70: W292 no newline at end of file
+nucleus/agents/tools.py:2:80: E501 line too long (126 > 79 characters)
+nucleus/agents/tools.py:6:1: F401 'functools' imported but unused
+nucleus/agents/tools.py:8:1: F401 'tempfile' imported but unused
+nucleus/agents/tools.py:9:1: F401 'typing.Optional' imported but unused
+nucleus/agents/tools.py:9:1: F401 'typing.Union' imported but unused
+nucleus/agents/tools.py:14:80: E501 line too long (96 > 79 characters)
+nucleus/agents/tools.py:17:1: E402 module level import not at top of file
+nucleus/agents/tools.py:19:1: E302 expected 2 blank lines, found 1
+nucleus/agents/tools.py:34:80: E501 line too long (103 > 79 characters)
+nucleus/agents/tools.py:37:80: E501 line too long (80 > 79 characters)
+nucleus/agents/tools.py:39:80: E501 line too long (84 > 79 characters)
+nucleus/agents/tools.py:40:80: E501 line too long (103 > 79 characters)
+nucleus/agents/tools.py:42:80: E501 line too long (81 > 79 characters)
+nucleus/agents/tools.py:44:80: E501 line too long (88 > 79 characters)
+nucleus/agents/tools.py:93:1: E302 expected 2 blank lines, found 1
+nucleus/agents/tools.py:99:80: E501 line too long (112 > 79 characters)
+nucleus/agents/tools.py:102:5: E306 expected 1 blank line before a nested definition, found 0
+nucleus/agents/tools.py:107:9: E306 expected 1 blank line before a nested definition, found 0
+nucleus/agents/tools.py:111:1: E302 expected 2 blank lines, found 1
+nucleus/agents/tools.py:124:1: E302 expected 2 blank lines, found 1
+nucleus/agents/tools.py:128:80: E501 line too long (109 > 79 characters)
+nucleus/agents/tools.py:131:1: E302 expected 2 blank lines, found 1
+nucleus/agents/tools.py:139:5: E306 expected 1 blank line before a nested definition, found 0
+nucleus/agents/tools.py:148:15: W292 no newline at end of file
+nucleus/agents/type_validation.py:2:80: E501 line too long (118 > 79 characters)
+nucleus/agents/type_validation.py:7:1: E302 expected 2 blank lines, found 1
+nucleus/agents/type_validation.py:25:80: E501 line too long (81 > 79 characters)
+nucleus/agents/type_validation.py:27:80: E501 line too long (94 > 79 characters)
+nucleus/agents/type_validation.py:27:95: W292 no newline at end of file
+nucleus/agents/types.py:3:80: E501 line too long (86 > 79 characters)
+nucleus/agents/types.py:11:1: E302 expected 2 blank lines, found 1
+nucleus/agents/types.py:14:80: E501 line too long (82 > 79 characters)
+nucleus/agents/types.py:28:1: E302 expected 2 blank lines, found 1
+nucleus/agents/types.py:38:1: E302 expected 2 blank lines, found 1
+nucleus/agents/types.py:51:80: E501 line too long (91 > 79 characters)
+nucleus/agents/types.py:69:1: E302 expected 2 blank lines, found 1
+nucleus/agents/types.py:84:1: E302 expected 2 blank lines, found 1
+nucleus/agents/types.py:92:18: W292 no newline at end of file
+nucleus/agents/utils.py:2:80: E501 line too long (123 > 79 characters)
+nucleus/agents/utils.py:8:1: F401 'inspect' imported but unused
+nucleus/agents/utils.py:10:1: E302 expected 2 blank lines, found 1
+nucleus/agents/utils.py:20:80: E501 line too long (110 > 79 characters)
+nucleus/agents/utils.py:31:80: E501 line too long (112 > 79 characters)
+nucleus/agents/utils.py:34:1: E302 expected 2 blank lines, found 1
+nucleus/agents/utils.py:42:1: E302 expected 2 blank lines, found 1
+nucleus/agents/utils.py:55:1: E302 expected 2 blank lines, found 1
+nucleus/agents/utils.py:66:1: E302 expected 2 blank lines, found 1
+nucleus/agents/utils.py:66:41: E701 multiple statements on one line (colon)
+nucleus/agents/utils.py:67:40: E701 multiple statements on one line (colon)
+nucleus/agents/utils.py:68:45: E701 multiple statements on one line (colon)
+nucleus/agents/utils.py:69:39: E701 multiple statements on one line (colon)
+nucleus/agents/utils.py:71:1: E302 expected 2 blank lines, found 1
+nucleus/agents/utils.py:80:80: E501 line too long (86 > 79 characters)
+nucleus/agents/utils.py:102:80: E501 line too long (80 > 79 characters)
+nucleus/agents/utils.py:113:80: E501 line too long (96 > 79 characters)
+nucleus/agents/utils.py:113:97: W292 no newline at end of file
+nucleus/agents/vision_browser.py:2:80: E501 line too long (125 > 79 characters)
+nucleus/agents/vision_browser.py:5:1: F401 'time' imported but unused
+nucleus/agents/vision_browser.py:6:1: F401 'io.BytesIO' imported but unused
+nucleus/agents/vision_browser.py:9:1: E302 expected 2 blank lines, found 1
+nucleus/agents/vision_browser.py:11:80: E501 line too long (82 > 79 characters)
+nucleus/agents/vision_browser.py:29:80: E501 line too long (90 > 79 characters)
+nucleus/agents/vision_browser.py:44:1: E302 expected 2 blank lines, found 1
+nucleus/agents/vision_browser.py:51:19: W292 no newline at end of file
+nucleus/api_base.py:4:80: E501 line too long (102 > 79 characters)
+nucleus/api_base.py:5:80: E501 line too long (113 > 79 characters)
+nucleus/api_base.py:13:1: E302 expected 2 blank lines, found 1
+nucleus/api_base.py:16:80: E501 line too long (89 > 79 characters)
+nucleus/api_base.py:20:80: E501 line too long (98 > 79 characters)
+nucleus/api_base.py:22:80: E501 line too long (104 > 79 characters)
+nucleus/api_base.py:30:12: W292 no newline at end of file
+nucleus/app_core.py:4:1: F401 'typing.Any' imported but unused
+nucleus/app_core.py:17:1: E302 expected 2 blank lines, found 1
+nucleus/app_core.py:24:80: E501 line too long (116 > 79 characters)
+nucleus/app_core.py:34:80: E501 line too long (118 > 79 characters)
+nucleus/app_core.py:46:80: E501 line too long (97 > 79 characters)
+nucleus/app_core.py:62:80: E501 line too long (80 > 79 characters)
+nucleus/app_core.py:67:80: E501 line too long (129 > 79 characters)
+nucleus/app_core.py:71:80: E501 line too long (128 > 79 characters)
+nucleus/app_core.py:75:13: F841 local variable 'progress' is assigned to but never used
+nucleus/app_core.py:75:80: E501 line too long (97 > 79 characters)
+nucleus/app_core.py:76:80: E501 line too long (177 > 79 characters)
+nucleus/app_core.py:77:80: E501 line too long (82 > 79 characters)
+nucleus/app_core.py:93:80: E501 line too long (113 > 79 characters)
+nucleus/app_core.py:102:9: F841 local variable 'crawled_data' is assigned to but never used
+nucleus/app_core.py:103:80: E501 line too long (117 > 79 characters)
+nucleus/app_core.py:111:80: E501 line too long (105 > 79 characters)
+nucleus/app_core.py:121:80: E501 line too long (96 > 79 characters)
+nucleus/app_core.py:123:80: E501 line too long (85 > 79 characters)
+nucleus/app_core.py:138:80: E501 line too long (102 > 79 characters)
+nucleus/app_core.py:139:23: W292 no newline at end of file
+nucleus/cli.py:2:1: F401 'sys' imported but unused
+nucleus/cli.py:5:1: E302 expected 2 blank lines, found 1
+nucleus/cli.py:9:1: E302 expected 2 blank lines, found 1
+nucleus/cli.py:13:1: E302 expected 2 blank lines, found 1
+nucleus/cli.py:14:80: E501 line too long (87 > 79 characters)
+nucleus/cli.py:17:1: E302 expected 2 blank lines, found 1
+nucleus/cli.py:23:80: E501 line too long (81 > 79 characters)
+nucleus/cli.py:28:80: E501 line too long (106 > 79 characters)
+nucleus/cli.py:32:80: E501 line too long (85 > 79 characters)
+nucleus/cli.py:33:80: E501 line too long (96 > 79 characters)
+nucleus/cli.py:34:80: E501 line too long (109 > 79 characters)
+nucleus/cli.py:35:80: E501 line too long (120 > 79 characters)
+nucleus/cli.py:48:80: E501 line too long (103 > 79 characters)
+nucleus/cli.py:52:1: E305 expected 2 blank lines after class or function definition, found 1
+nucleus/cli.py:53:11: W292 no newline at end of file
+nucleus/code_orchestrator.py:5:1: E302 expected 2 blank lines, found 1
+nucleus/code_orchestrator.py:7:80: E501 line too long (121 > 79 characters)
+nucleus/code_orchestrator.py:9:80: E501 line too long (91 > 79 characters)
+nucleus/code_orchestrator.py:37:1: E302 expected 2 blank lines, found 1
+nucleus/code_orchestrator.py:39:80: E501 line too long (100 > 79 characters)
+nucleus/code_orchestrator.py:46:80: E501 line too long (105 > 79 characters)
+nucleus/code_orchestrator.py:57:80: E501 line too long (90 > 79 characters)
+nucleus/code_orchestrator.py:60:80: E501 line too long (94 > 79 characters)
+nucleus/code_orchestrator.py:66:80: E501 line too long (84 > 79 characters)
+nucleus/code_orchestrator.py:72:1: E302 expected 2 blank lines, found 1
+nucleus/code_orchestrator.py:74:80: E501 line too long (84 > 79 characters)
+nucleus/code_orchestrator.py:93:1: E302 expected 2 blank lines, found 1
+nucleus/code_orchestrator.py:100:80: E501 line too long (95 > 79 characters)
+nucleus/code_orchestrator.py:105:80: E501 line too long (111 > 79 characters)
+nucleus/code_orchestrator.py:106:80: E501 line too long (84 > 79 characters)
+nucleus/code_orchestrator.py:109:1: E302 expected 2 blank lines, found 1
+nucleus/code_orchestrator.py:120:37: W292 no newline at end of file
+nucleus/crawler_hub.py:6:1: E302 expected 2 blank lines, found 1
+nucleus/crawler_hub.py:10:80: E501 line too long (80 > 79 characters)
+nucleus/crawler_hub.py:16:80: E501 line too long (84 > 79 characters)
+nucleus/crawler_hub.py:23:1: E302 expected 2 blank lines, found 1
+nucleus/crawler_hub.py:34:80: E501 line too long (84 > 79 characters)
+nucleus/crawler_hub.py:38:1: E302 expected 2 blank lines, found 1
+nucleus/crawler_hub.py:49:80: E501 line too long (84 > 79 characters)
+nucleus/crawler_hub.py:53:1: E302 expected 2 blank lines, found 1
+nucleus/crawler_hub.py:64:80: E501 line too long (84 > 79 characters)
+nucleus/crawler_hub.py:66:80: E501 line too long (81 > 79 characters)
+nucleus/crawler_hub.py:68:1: E302 expected 2 blank lines, found 1
+nucleus/crawler_hub.py:81:80: E501 line too long (96 > 79 characters)
+nucleus/crawler_hub.py:83:80: E501 line too long (84 > 79 characters)
+nucleus/crawler_hub.py:113:24: W292 no newline at end of file
+nucleus/data_pipeline.py:3:1: F401 'typing.Any' imported but unused
+nucleus/data_pipeline.py:5:1: E302 expected 2 blank lines, found 1
+nucleus/data_pipeline.py:7:80: E501 line too long (107 > 79 characters)
+nucleus/data_pipeline.py:13:80: E501 line too long (149 > 79 characters)
+nucleus/data_pipeline.py:43:80: E501 line too long (132 > 79 characters)
+nucleus/data_pipeline.py:49:80: E501 line too long (86 > 79 characters)
+nucleus/data_pipeline.py:69:57: W292 no newline at end of file
+nucleus/database.py:2:80: E501 line too long (90 > 79 characters)
+nucleus/database.py:8:1: E302 expected 2 blank lines, found 1
+nucleus/database.py:10:80: E501 line too long (105 > 79 characters)
+nucleus/database.py:14:80: E501 line too long (80 > 79 characters)
+nucleus/database.py:34:80: E501 line too long (86 > 79 characters)
+nucleus/database.py:37:80: E501 line too long (88 > 79 characters)
+nucleus/database.py:38:22: W292 no newline at end of file
+nucleus/embeddings.py:11:1: E302 expected 2 blank lines, found 1
+nucleus/embeddings.py:13:80: E501 line too long (92 > 79 characters)
+nucleus/embeddings.py:55:41: W292 no newline at end of file
+nucleus/errors.py:3:8: W291 trailing whitespace
+nucleus/errors.py:6:1: E302 expected 2 blank lines, found 1
+nucleus/errors.py:10:1: E302 expected 2 blank lines, found 1
+nucleus/errors.py:14:1: E302 expected 2 blank lines, found 1
+nucleus/errors.py:18:1: E302 expected 2 blank lines, found 1
+nucleus/errors.py:22:1: E302 expected 2 blank lines, found 1
+nucleus/errors.py:26:1: E302 expected 2 blank lines, found 1
+nucleus/errors.py:30:1: E302 expected 2 blank lines, found 1
+nucleus/errors.py:34:1: E302 expected 2 blank lines, found 1
+nucleus/errors.py:38:1: E302 expected 2 blank lines, found 1
+nucleus/errors.py:42:1: E302 expected 2 blank lines, found 1
+nucleus/errors.py:46:1: E302 expected 2 blank lines, found 1
+nucleus/errors.py:48:9: W292 no newline at end of file
+nucleus/event_bus.py:5:1: E302 expected 2 blank lines, found 1
+nucleus/event_bus.py:9:80: E501 line too long (83 > 79 characters)
+nucleus/event_bus.py:14:1: E302 expected 2 blank lines, found 1
+nucleus/event_bus.py:16:80: E501 line too long (97 > 79 characters)
+nucleus/event_bus.py:20:80: E501 line too long (83 > 79 characters)
+nucleus/event_bus.py:24:80: E501 line too long (86 > 79 characters)
+nucleus/event_bus.py:42:80: E501 line too long (93 > 79 characters)
+nucleus/event_bus.py:51:17: F841 local variable 'exc' is assigned to but never used
+nucleus/event_bus.py:54:33: W292 no newline at end of file
+nucleus/ingest_pipeline.py:3:80: E501 line too long (140 > 79 characters)
+nucleus/ingest_pipeline.py:9:80: E501 line too long (89 > 79 characters)
+nucleus/ingest_pipeline.py:12:1: E302 expected 2 blank lines, found 1
+nucleus/ingest_pipeline.py:14:80: E501 line too long (103 > 79 characters)
+nucleus/ingest_pipeline.py:26:80: E501 line too long (95 > 79 characters)
+nucleus/ingest_pipeline.py:42:80: E501 line too long (107 > 79 characters)
+nucleus/ingest_pipeline.py:44:20: F821 undefined name 'Chunking'
+nucleus/ingest_pipeline.py:53:27: F821 undefined name 'IngestionInput'
+nucleus/ingest_pipeline.py:73:80: E501 line too long (86 > 79 characters)
+nucleus/ingest_pipeline.py:82:1: E302 expected 2 blank lines, found 1
+nucleus/ingest_pipeline.py:84:80: E501 line too long (152 > 79 characters)
+nucleus/ingest_pipeline.py:105:22: F821 undefined name 'CodeFiles'
+nucleus/ingest_pipeline.py:106:20: F821 undefined name 'CodeChunking'
+nucleus/ingest_pipeline.py:111:80: E501 line too long (80 > 79 characters)
+nucleus/ingest_pipeline.py:123:80: E501 line too long (86 > 79 characters)
+nucleus/ingest_pipeline.py:130:21: W292 no newline at end of file
+nucleus/ingest_types.py:3:80: E501 line too long (123 > 79 characters)
+nucleus/ingest_types.py:11:1: E302 expected 2 blank lines, found 1
+nucleus/ingest_types.py:13:80: E501 line too long (99 > 79 characters)
+nucleus/ingest_types.py:15:80: E501 line too long (90 > 79 characters)
+nucleus/ingest_types.py:25:80: E501 line too long (102 > 79 characters)
+nucleus/ingest_types.py:30:1: E302 expected 2 blank lines, found 1
+nucleus/ingest_types.py:32:80: E501 line too long (123 > 79 characters)
+nucleus/ingest_types.py:40:80: E501 line too long (85 > 79 characters)
+nucleus/ingest_types.py:44:1: E302 expected 2 blank lines, found 1
+nucleus/ingest_types.py:46:80: E501 line too long (83 > 79 characters)
+nucleus/ingest_types.py:58:80: E501 line too long (80 > 79 characters)
+nucleus/ingest_types.py:61:1: E302 expected 2 blank lines, found 1
+nucleus/ingest_types.py:63:80: E501 line too long (122 > 79 characters)
+nucleus/ingest_types.py:75:80: E501 line too long (87 > 79 characters)
+nucleus/ingest_types.py:77:80: E501 line too long (101 > 79 characters)
+nucleus/ingest_types.py:78:80: E501 line too long (85 > 79 characters)
+nucleus/ingest_types.py:79:20: W292 no newline at end of file
+nucleus/ingestion_engine.py:3:80: E501 line too long (82 > 79 characters)
+nucleus/ingestion_engine.py:4:8: W291 trailing whitespace
+nucleus/ingestion_engine.py:8:1: F401 'typing.Any' imported but unused
+nucleus/ingestion_engine.py:15:1: E302 expected 2 blank lines, found 1
+nucleus/ingestion_engine.py:17:80: E501 line too long (103 > 79 characters)
+nucleus/ingestion_engine.py:27:1: E305 expected 2 blank lines after class or function definition, found 1
+nucleus/ingestion_engine.py:55:80: E501 line too long (80 > 79 characters)
+nucleus/ingestion_engine.py:71:1: E302 expected 2 blank lines, found 1
+nucleus/ingestion_engine.py:75:80: E501 line too long (90 > 79 characters)
+nucleus/ingestion_engine.py:89:1: E302 expected 2 blank lines, found 1
+nucleus/ingestion_engine.py:103:1: E302 expected 2 blank lines, found 1
+nucleus/ingestion_engine.py:118:1: E302 expected 2 blank lines, found 1
+nucleus/ingestion_engine.py:133:80: E501 line too long (101 > 79 characters)
+nucleus/ingestion_engine.py:139:1: E302 expected 2 blank lines, found 1
+nucleus/ingestion_engine.py:141:80: E501 line too long (95 > 79 characters)
+nucleus/ingestion_engine.py:146:80: E501 line too long (93 > 79 characters)
+nucleus/ingestion_engine.py:176:80: E501 line too long (115 > 79 characters)
+nucleus/ingestion_engine.py:179:80: E501 line too long (93 > 79 characters)
+nucleus/ingestion_engine.py:187:80: E501 line too long (122 > 79 characters)
+nucleus/ingestion_engine.py:188:24: E128 continuation line under-indented for visual indent
+nucleus/ingestion_engine.py:188:80: E501 line too long (119 > 79 characters)
+nucleus/ingestion_engine.py:189:24: E128 continuation line under-indented for visual indent
+nucleus/ingestion_engine.py:189:80: E501 line too long (108 > 79 characters)
+nucleus/ingestion_engine.py:190:24: E128 continuation line under-indented for visual indent
+nucleus/ingestion_engine.py:192:80: E501 line too long (86 > 79 characters)
+nucleus/ingestion_engine.py:223:80: E501 line too long (90 > 79 characters)
+nucleus/ingestion_engine.py:232:80: E501 line too long (130 > 79 characters)
+nucleus/ingestion_engine.py:233:20: E128 continuation line under-indented for visual indent
+nucleus/ingestion_engine.py:233:80: E501 line too long (131 > 79 characters)
+nucleus/ingestion_engine.py:235:80: E501 line too long (111 > 79 characters)
+nucleus/ingestion_engine.py:243:80: E501 line too long (80 > 79 characters)
+nucleus/ingestion_engine.py:255:80: E501 line too long (90 > 79 characters)
+nucleus/ingestion_engine.py:262:21: W292 no newline at end of file
+nucleus/integration/fastmcp_wrapper.py:2:80: E501 line too long (147 > 79 characters)
+nucleus/integration/fastmcp_wrapper.py:3:80: E501 line too long (87 > 79 characters)
+nucleus/integration/fastmcp_wrapper.py:6:1: F401 'asyncio' imported but unused
+nucleus/integration/fastmcp_wrapper.py:7:1: F401 'typing.List' imported but unused
+nucleus/integration/fastmcp_wrapper.py:9:1: E302 expected 2 blank lines, found 1
+nucleus/integration/fastmcp_wrapper.py:11:80: E501 line too long (102 > 79 characters)
+nucleus/integration/fastmcp_wrapper.py:19:80: E501 line too long (103 > 79 characters)
+nucleus/integration/fastmcp_wrapper.py:45:80: E501 line too long (96 > 79 characters)
+nucleus/integration/fastmcp_wrapper.py:46:80: E501 line too long (82 > 79 characters)
+nucleus/integration/fastmcp_wrapper.py:50:80: E501 line too long (82 > 79 characters)
+nucleus/integration/fastmcp_wrapper.py:53:80: E501 line too long (106 > 79 characters)
+nucleus/integration/fastmcp_wrapper.py:54:80: E501 line too long (82 > 79 characters)
+nucleus/integration/fastmcp_wrapper.py:59:20: W292 no newline at end of file
+nucleus/integration/groq_magic.py:2:80: E501 line too long (100 > 79 characters)
+nucleus/integration/groq_magic.py:3:80: E501 line too long (110 > 79 characters)
+nucleus/integration/groq_magic.py:14:1: E302 expected 2 blank lines, found 1
+nucleus/integration/groq_magic.py:16:80: E501 line too long (80 > 79 characters)
+nucleus/integration/groq_magic.py:21:80: E501 line too long (80 > 79 characters)
+nucleus/integration/groq_magic.py:29:80: E501 line too long (106 > 79 characters)
+nucleus/integration/groq_magic.py:56:80: E501 line too long (83 > 79 characters)
+nucleus/integration/groq_magic.py:56:84: W292 no newline at end of file
+nucleus/integration/hf_hub.py:22:80: E501 line too long (86 > 79 characters)
+nucleus/integration/hf_hub.py:24:1: E302 expected 2 blank lines, found 1
+nucleus/integration/hf_hub.py:26:80: E501 line too long (92 > 79 characters)
+nucleus/integration/hf_hub.py:35:80: E501 line too long (82 > 79 characters)
+nucleus/integration/hf_hub.py:47:80: E501 line too long (92 > 79 characters)
+nucleus/integration/hf_hub.py:67:80: E501 line too long (83 > 79 characters)
+nucleus/integration/hf_hub.py:107:75: W292 no newline at end of file
+nucleus/internal_rephrase.py:3:8: W291 trailing whitespace
+nucleus/internal_rephrase.py:9:1: E302 expected 2 blank lines, found 1
+nucleus/internal_rephrase.py:16:64: W292 no newline at end of file
+nucleus/llm_api.py:2:80: E501 line too long (111 > 79 characters)
+nucleus/llm_api.py:6:1: F401 'os' imported but unused
+nucleus/llm_api.py:8:1: F401 'httpx' imported but unused
+nucleus/llm_api.py:9:1: F401 'logging' imported but unused
+nucleus/llm_api.py:13:1: E302 expected 2 blank lines, found 1
+nucleus/llm_api.py:19:1: E302 expected 2 blank lines, found 1
+nucleus/llm_api.py:21:80: E501 line too long (128 > 79 characters)
+nucleus/llm_api.py:27:80: E501 line too long (97 > 79 characters)
+nucleus/llm_api.py:35:80: E501 line too long (101 > 79 characters)
+nucleus/llm_api.py:40:1: E302 expected 2 blank lines, found 1
+nucleus/llm_api.py:42:80: E501 line too long (132 > 79 characters)
+nucleus/llm_api.py:60:80: E501 line too long (101 > 79 characters)
+nucleus/llm_api.py:65:1: E302 expected 2 blank lines, found 1
+nucleus/llm_api.py:67:80: E501 line too long (134 > 79 characters)
+nucleus/llm_api.py:79:80: E501 line too long (92 > 79 characters)
+nucleus/llm_api.py:84:1: E302 expected 2 blank lines, found 1
+nucleus/llm_api.py:86:80: E501 line too long (96 > 79 characters)
+nucleus/llm_api.py:98:80: E501 line too long (84 > 79 characters)
+nucleus/llm_api.py:108:1: E302 expected 2 blank lines, found 1
+nucleus/llm_api.py:121:80: E501 line too long (84 > 79 characters)
+nucleus/llm_api.py:127:1: E302 expected 2 blank lines, found 1
+nucleus/llm_api.py:139:58: W292 no newline at end of file
+nucleus/llm_router.py:2:1: F401 'asyncio' imported but unused
+nucleus/llm_router.py:4:1: F401 'typing.Any' imported but unused
+nucleus/llm_router.py:6:1: E302 expected 2 blank lines, found 1
+nucleus/llm_router.py:16:80: E501 line too long (80 > 79 characters)
+nucleus/llm_router.py:19:1: E302 expected 2 blank lines, found 1
+nucleus/llm_router.py:23:80: E501 line too long (97 > 79 characters)
+nucleus/llm_router.py:30:80: E501 line too long (85 > 79 characters)
+nucleus/llm_router.py:38:80: E501 line too long (92 > 79 characters)
+nucleus/llm_router.py:43:80: E501 line too long (80 > 79 characters)
+nucleus/llm_router.py:45:80: E501 line too long (85 > 79 characters)
+nucleus/llm_router.py:52:80: E501 line too long (92 > 79 characters)
+nucleus/llm_router.py:57:1: E302 expected 2 blank lines, found 1
+nucleus/llm_router.py:78:80: E501 line too long (80 > 79 characters)
+nucleus/llm_router.py:91:1: E302 expected 2 blank lines, found 1
+nucleus/llm_router.py:113:80: E501 line too long (80 > 79 characters)
+nucleus/llm_router.py:126:1: E302 expected 2 blank lines, found 1
+nucleus/llm_router.py:134:80: E501 line too long (83 > 79 characters)
+nucleus/llm_router.py:139:80: E501 line too long (90 > 79 characters)
+nucleus/llm_router.py:145:80: E501 line too long (111 > 79 characters)
+nucleus/llm_router.py:149:69: W292 no newline at end of file
+nucleus/logger.py:3:80: E501 line too long (82 > 79 characters)
+nucleus/logger.py:9:1: E302 expected 2 blank lines, found 1
+nucleus/logger.py:15:1: E302 expected 2 blank lines, found 1
+nucleus/logger.py:26:80: E501 line too long (93 > 79 characters)
+nucleus/logger.py:39:80: E501 line too long (90 > 79 characters)
+nucleus/logger.py:41:65: W292 no newline at end of file
+nucleus/memory.py:2:80: E501 line too long (96 > 79 characters)
+nucleus/memory.py:10:1: E302 expected 2 blank lines, found 1
+nucleus/memory.py:26:1: E302 expected 2 blank lines, found 1
+nucleus/memory.py:35:1: E302 expected 2 blank lines, found 1
+nucleus/memory.py:50:1: E302 expected 2 blank lines, found 1
+nucleus/memory.py:58:1: E302 expected 2 blank lines, found 1
+nucleus/memory.py:63:1: E302 expected 2 blank lines, found 1
+nucleus/memory.py:67:1: E302 expected 2 blank lines, found 1
+nucleus/memory.py:77:80: E501 line too long (118 > 79 characters)
+nucleus/memory.py:81:52: W292 no newline at end of file
+nucleus/pipeline.py:3:1: F401 'asyncio' imported but unused
+nucleus/pipeline.py:12:80: E501 line too long (82 > 79 characters)
+nucleus/pipeline.py:17:1: E302 expected 2 blank lines, found 1
+nucleus/pipeline.py:19:80: E501 line too long (107 > 79 characters)
+nucleus/pipeline.py:20:80: E501 line too long (115 > 79 characters)
+nucleus/pipeline.py:32:80: E501 line too long (86 > 79 characters)
+nucleus/pipeline.py:36:80: E501 line too long (106 > 79 characters)
+nucleus/pipeline.py:38:80: E501 line too long (93 > 79 characters)
+nucleus/pipeline.py:40:80: E501 line too long (134 > 79 characters)
+nucleus/pipeline.py:44:80: E501 line too long (119 > 79 characters)
+nucleus/pipeline.py:45:80: E501 line too long (123 > 79 characters)
+nucleus/pipeline.py:46:80: E501 line too long (81 > 79 characters)
+nucleus/pipeline.py:48:80: E501 line too long (125 > 79 characters)
+nucleus/pipeline.py:63:80: E501 line too long (109 > 79 characters)
+nucleus/pipeline.py:67:80: E501 line too long (125 > 79 characters)
+nucleus/pipeline.py:71:80: E501 line too long (122 > 79 characters)
+nucleus/pipeline.py:75:80: E501 line too long (88 > 79 characters)
+nucleus/pipeline.py:82:22: W292 no newline at end of file
+nucleus/prompt_engine.py:4:1: E302 expected 2 blank lines, found 1
+nucleus/prompt_engine.py:19:80: E501 line too long (99 > 79 characters)
+nucleus/prompt_engine.py:36:38: W292 no newline at end of file
+nucleus/prompts.py:6:80: E501 line too long (143 > 79 characters)
+nucleus/prompts.py:7:80: E501 line too long (129 > 79 characters)
+nucleus/prompts.py:8:80: E501 line too long (138 > 79 characters)
+nucleus/prompts.py:10:80: E501 line too long (142 > 79 characters)
+nucleus/prompts.py:11:80: E501 line too long (128 > 79 characters)
+nucleus/prompts.py:12:80: E501 line too long (111 > 79 characters)
+nucleus/prompts.py:13:80: E501 line too long (117 > 79 characters)
+nucleus/prompts.py:20:80: E501 line too long (191 > 79 characters)
+nucleus/prompts.py:23:80: E501 line too long (87 > 79 characters)
+nucleus/prompts.py:26:80: E501 line too long (110 > 79 characters)
+nucleus/prompts.py:31:80: E501 line too long (86 > 79 characters)
+nucleus/prompts.py:38:80: E501 line too long (133 > 79 characters)
+nucleus/prompts.py:52:80: E501 line too long (151 > 79 characters)
+nucleus/prompts.py:64:80: E501 line too long (112 > 79 characters)
+nucleus/prompts.py:65:80: E501 line too long (110 > 79 characters)
+nucleus/prompts.py:67:80: E501 line too long (110 > 79 characters)
+nucleus/prompts.py:75:4: W292 no newline at end of file
+nucleus/prompts.py:75:80: E501 line too long (1000 > 79 characters)
+nucleus/rl_loop.py:3:1: F401 'typing.Any' imported but unused
+nucleus/rl_loop.py:5:1: E302 expected 2 blank lines, found 1
+nucleus/rl_loop.py:33:1: E302 expected 2 blank lines, found 1
+nucleus/rl_loop.py:36:12: W291 trailing whitespace
+nucleus/rl_loop.py:52:38: W292 no newline at end of file
+nucleus/server.py:1:1: F401 'fastapi.UploadFile' imported but unused
+nucleus/server.py:1:1: F401 'fastapi.WebSocket' imported but unused
+nucleus/server.py:1:1: F401 'fastapi.WebSocketDisconnect' imported but unused
+nucleus/server.py:1:80: E501 line too long (86 > 79 characters)
+nucleus/server.py:31:1: E302 expected 2 blank lines, found 1
+nucleus/server.py:35:1: E302 expected 2 blank lines, found 1
+nucleus/server.py:37:80: E501 line too long (96 > 79 characters)
+nucleus/server.py:40:1: E302 expected 2 blank lines, found 1
+nucleus/server.py:45:1: E302 expected 2 blank lines, found 1
+nucleus/server.py:47:80: E501 line too long (130 > 79 characters)
+nucleus/server.py:52:1: E302 expected 2 blank lines, found 1
+nucleus/server.py:54:80: E501 line too long (98 > 79 characters)
+nucleus/server.py:59:1: E302 expected 2 blank lines, found 1
+nucleus/server.py:62:18: W292 no newline at end of file
+nucleus/skill_manager.py:9:1: E302 expected 2 blank lines, found 1
+nucleus/skill_manager.py:15:80: E501 line too long (80 > 79 characters)
+nucleus/skill_manager.py:21:80: E501 line too long (88 > 79 characters)
+nucleus/skill_manager.py:28:1: E302 expected 2 blank lines, found 1
+nucleus/skill_manager.py:35:80: E501 line too long (106 > 79 characters)
+nucleus/skill_manager.py:45:80: E501 line too long (104 > 79 characters)
+nucleus/skill_manager.py:46:80: E501 line too long (89 > 79 characters)
+nucleus/skill_manager.py:57:80: E501 line too long (124 > 79 characters)
+nucleus/skill_manager.py:60:80: E501 line too long (81 > 79 characters)
+nucleus/skill_manager.py:62:80: E501 line too long (107 > 79 characters)
+nucleus/skill_manager.py:65:80: E501 line too long (93 > 79 characters)
+nucleus/skill_manager.py:67:80: E501 line too long (97 > 79 characters)
+nucleus/skill_manager.py:73:80: E501 line too long (83 > 79 characters)
+nucleus/skill_manager.py:74:80: E501 line too long (103 > 79 characters)
+nucleus/skill_manager.py:76:80: E501 line too long (80 > 79 characters)
+nucleus/skill_manager.py:91:80: E501 line too long (101 > 79 characters)
+nucleus/skill_manager.py:103:80: E501 line too long (104 > 79 characters)
+nucleus/skill_manager.py:105:80: E501 line too long (104 > 79 characters)
+nucleus/skill_manager.py:108:80: E501 line too long (102 > 79 characters)
+nucleus/skill_manager.py:125:9: F841 local variable 'new_skill' is assigned to but never used
+nucleus/skill_manager.py:125:80: E501 line too long (126 > 79 characters)
+nucleus/skill_manager.py:131:80: E501 line too long (139 > 79 characters)
+nucleus/skill_manager.py:135:80: E501 line too long (91 > 79 characters)
+nucleus/skill_manager.py:138:33: W292 no newline at end of file
+nucleus/skill_registry.py:2:80: E501 line too long (84 > 79 characters)
+nucleus/skill_registry.py:12:1: E302 expected 2 blank lines, found 1
+nucleus/skill_registry.py:14:80: E501 line too long (86 > 79 characters)
+nucleus/skill_registry.py:27:1: E302 expected 2 blank lines, found 1
+nucleus/skill_registry.py:29:80: E501 line too long (87 > 79 characters)
+nucleus/skill_registry.py:37:80: E501 line too long (87 > 79 characters)
+nucleus/skill_registry.py:49:17: E306 expected 1 blank line before a nested definition, found 0
+nucleus/skill_registry.py:51:80: E501 line too long (80 > 79 characters)
+nucleus/skill_registry.py:59:80: E501 line too long (87 > 79 characters)
+nucleus/skill_registry.py:60:17: W292 no newline at end of file
+nucleus/skills/arxiv_search_skill.py:3:1: E302 expected 2 blank lines, found 1
+nucleus/skills/arxiv_search_skill.py:5:80: E501 line too long (87 > 79 characters)
+nucleus/skills/arxiv_search_skill.py:11:80: E501 line too long (95 > 79 characters)
+nucleus/skills/arxiv_search_skill.py:45:80: E501 line too long (95 > 79 characters)
+nucleus/skills/arxiv_search_skill.py:60:80: E501 line too long (86 > 79 characters)
+nucleus/skills/arxiv_search_skill.py:63:80: E501 line too long (92 > 79 characters)
+nucleus/skills/arxiv_search_skill.py:64:80: E501 line too long (90 > 79 characters)
+nucleus/skills/arxiv_search_skill.py:65:80: E501 line too long (98 > 79 characters)
+nucleus/skills/arxiv_search_skill.py:66:80: E501 line too long (87 > 79 characters)
+nucleus/skills/arxiv_search_skill.py:67:80: E501 line too long (96 > 79 characters)
+nucleus/skills/arxiv_search_skill.py:68:80: E501 line too long (85 > 79 characters)
+nucleus/skills/arxiv_search_skill.py:72:80: E501 line too long (91 > 79 characters)
+nucleus/skills/arxiv_search_skill.py:77:55: W292 no newline at end of file
+nucleus/skills/auto_coder_skill.py:3:1: E302 expected 2 blank lines, found 1
+nucleus/skills/auto_coder_skill.py:6:80: E501 line too long (103 > 79 characters)
+nucleus/skills/auto_coder_skill.py:7:80: E501 line too long (107 > 79 characters)
+nucleus/skills/auto_coder_skill.py:12:80: E501 line too long (116 > 79 characters)
+nucleus/skills/auto_coder_skill.py:39:80: E501 line too long (103 > 79 characters)
+nucleus/skills/auto_coder_skill.py:46:80: E501 line too long (85 > 79 characters)
+nucleus/skills/auto_coder_skill.py:55:80: E501 line too long (89 > 79 characters)
+nucleus/skills/auto_coder_skill.py:89:80: E501 line too long (108 > 79 characters)
+nucleus/skills/auto_coder_skill.py:97:59: W292 no newline at end of file
+nucleus/skills/browser_skill.py:3:1: E302 expected 2 blank lines, found 1
+nucleus/skills/browser_skill.py:6:80: E501 line too long (80 > 79 characters)
+nucleus/skills/browser_skill.py:7:80: E501 line too long (89 > 79 characters)
+nucleus/skills/browser_skill.py:12:80: E501 line too long (88 > 79 characters)
+nucleus/skills/browser_skill.py:22:80: E501 line too long (102 > 79 characters)
+nucleus/skills/browser_skill.py:67:80: E501 line too long (86 > 79 characters)
+nucleus/skills/browser_skill.py:72:80: E501 line too long (116 > 79 characters)
+nucleus/skills/browser_skill.py:85:80: E501 line too long (101 > 79 characters)
+nucleus/skills/browser_skill.py:87:69: W292 no newline at end of file
+nucleus/skills/code_gen_skill.py:3:1: E302 expected 2 blank lines, found 1
+nucleus/skills/code_gen_skill.py:5:44: W291 trailing whitespace
+nucleus/skills/code_gen_skill.py:6:80: E501 line too long (85 > 79 characters)
+nucleus/skills/code_gen_skill.py:11:80: E501 line too long (100 > 79 characters)
+nucleus/skills/code_gen_skill.py:24:80: E501 line too long (93 > 79 characters)
+nucleus/skills/code_gen_skill.py:27:80: E501 line too long (96 > 79 characters)
+nucleus/skills/code_gen_skill.py:33:67: W291 trailing whitespace
+nucleus/skills/code_gen_skill.py:40:80: E501 line too long (93 > 79 characters)
+nucleus/skills/code_gen_skill.py:45:80: E501 line too long (92 > 79 characters)
+nucleus/skills/code_gen_skill.py:45:93: W292 no newline at end of file
+nucleus/skills/conversation_generator_skill.py:6:1: E302 expected 2 blank lines, found 1
+nucleus/skills/conversation_generator_skill.py:9:80: E501 line too long (93 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:15:80: E501 line too long (123 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:29:80: E501 line too long (107 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:36:80: E501 line too long (91 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:43:80: E501 line too long (81 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:52:80: E501 line too long (95 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:61:80: E501 line too long (115 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:67:80: E501 line too long (109 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:74:80: E501 line too long (90 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:75:30: E128 continuation line under-indented for visual indent
+nucleus/skills/conversation_generator_skill.py:75:80: E501 line too long (82 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:77:58: W291 trailing whitespace
+nucleus/skills/conversation_generator_skill.py:82:80: E501 line too long (91 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:83:80: E501 line too long (121 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:91:80: E501 line too long (93 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:97:80: E501 line too long (120 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:103:80: E501 line too long (83 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:121:80: E501 line too long (85 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:122:80: E501 line too long (141 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:123:80: E501 line too long (103 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:136:80: E501 line too long (106 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:158:80: E501 line too long (90 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:164:80: E501 line too long (90 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:169:80: E501 line too long (88 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:171:62: W291 trailing whitespace
+nucleus/skills/conversation_generator_skill.py:177:80: E501 line too long (98 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:178:80: E501 line too long (91 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:180:80: E501 line too long (87 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:185:80: E501 line too long (102 > 79 characters)
+nucleus/skills/conversation_generator_skill.py:198:70: W292 no newline at end of file
+nucleus/skills/data_analyzer_skill.py:5:1: E302 expected 2 blank lines, found 1
+nucleus/skills/data_analyzer_skill.py:7:44: W291 trailing whitespace
+nucleus/skills/data_analyzer_skill.py:8:80: E501 line too long (91 > 79 characters)
+nucleus/skills/data_analyzer_skill.py:13:80: E501 line too long (82 > 79 characters)
+nucleus/skills/data_analyzer_skill.py:45:80: E501 line too long (85 > 79 characters)
+nucleus/skills/data_analyzer_skill.py:65:80: E501 line too long (82 > 79 characters)
+nucleus/skills/data_analyzer_skill.py:72:80: E501 line too long (92 > 79 characters)
+nucleus/skills/data_analyzer_skill.py:72:93: W292 no newline at end of file
+nucleus/skills/data_cleaner_skill.py:4:1: E302 expected 2 blank lines, found 1
+nucleus/skills/data_cleaner_skill.py:6:80: E501 line too long (88 > 79 characters)
+nucleus/skills/data_cleaner_skill.py:7:80: E501 line too long (86 > 79 characters)
+nucleus/skills/data_cleaner_skill.py:12:80: E501 line too long (86 > 79 characters)
+nucleus/skills/data_cleaner_skill.py:42:80: E501 line too long (93 > 79 characters)
+nucleus/skills/data_cleaner_skill.py:60:80: E501 line too long (85 > 79 characters)
+nucleus/skills/data_cleaner_skill.py:63:80: E501 line too long (100 > 79 characters)
+nucleus/skills/data_cleaner_skill.py:67:80: E501 line too long (104 > 79 characters)
+nucleus/skills/data_cleaner_skill.py:68:10: W292 no newline at end of file
+nucleus/skills/data_expander_skill.py:7:1: E302 expected 2 blank lines, found 1
+nucleus/skills/data_expander_skill.py:10:80: E501 line too long (100 > 79 characters)
+nucleus/skills/data_expander_skill.py:16:80: E501 line too long (99 > 79 characters)
+nucleus/skills/data_expander_skill.py:44:80: E501 line too long (87 > 79 characters)
+nucleus/skills/data_expander_skill.py:53:80: E501 line too long (82 > 79 characters)
+nucleus/skills/data_expander_skill.py:59:80: E501 line too long (85 > 79 characters)
+nucleus/skills/data_expander_skill.py:61:80: E501 line too long (117 > 79 characters)
+nucleus/skills/data_expander_skill.py:64:80: E501 line too long (113 > 79 characters)
+nucleus/skills/data_expander_skill.py:68:80: E501 line too long (85 > 79 characters)
+nucleus/skills/data_expander_skill.py:71:80: E501 line too long (114 > 79 characters)
+nucleus/skills/data_expander_skill.py:77:80: E501 line too long (86 > 79 characters)
+nucleus/skills/data_expander_skill.py:81:80: E501 line too long (120 > 79 characters)
+nucleus/skills/data_expander_skill.py:85:80: E501 line too long (164 > 79 characters)
+nucleus/skills/data_expander_skill.py:88:80: E501 line too long (127 > 79 characters)
+nucleus/skills/data_expander_skill.py:95:80: E501 line too long (92 > 79 characters)
+nucleus/skills/data_expander_skill.py:96:80: E501 line too long (92 > 79 characters)
+nucleus/skills/data_expander_skill.py:102:80: E501 line too long (80 > 79 characters)
+nucleus/skills/data_expander_skill.py:116:80: E501 line too long (117 > 79 characters)
+nucleus/skills/data_expander_skill.py:121:80: E501 line too long (84 > 79 characters)
+nucleus/skills/data_expander_skill.py:139:80: E501 line too long (82 > 79 characters)
+nucleus/skills/data_expander_skill.py:151:23: W292 no newline at end of file
+nucleus/skills/depth_cam_skill.py:7:1: E302 expected 2 blank lines, found 1
+nucleus/skills/depth_cam_skill.py:41:80: E501 line too long (100 > 79 characters)
+nucleus/skills/depth_cam_skill.py:42:80: E501 line too long (102 > 79 characters)
+nucleus/skills/depth_cam_skill.py:43:80: E501 line too long (105 > 79 characters)
+nucleus/skills/depth_cam_skill.py:44:80: E501 line too long (106 > 79 characters)
+nucleus/skills/depth_cam_skill.py:49:80: E501 line too long (90 > 79 characters)
+nucleus/skills/depth_cam_skill.py:50:80: E501 line too long (88 > 79 characters)
+nucleus/skills/depth_cam_skill.py:61:80: E501 line too long (90 > 79 characters)
+nucleus/skills/depth_cam_skill.py:82:80: E501 line too long (87 > 79 characters)
+nucleus/skills/depth_cam_skill.py:108:26: W292 no newline at end of file
+nucleus/skills/depth_cycle_gan_skill.py:10:1: E302 expected 2 blank lines, found 1
+nucleus/skills/depth_cycle_gan_skill.py:12:80: E501 line too long (93 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:18:80: E501 line too long (89 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:39:80: E501 line too long (80 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:50:80: E501 line too long (96 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:51:80: E501 line too long (98 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:52:80: E501 line too long (100 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:57:80: E501 line too long (86 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:58:80: E501 line too long (84 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:83:80: E501 line too long (82 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:86:80: E501 line too long (85 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:93:80: E501 line too long (119 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:102:80: E501 line too long (84 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:103:80: E501 line too long (85 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:105:80: E501 line too long (94 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:106:80: E501 line too long (85 > 79 characters)
+nucleus/skills/depth_cycle_gan_skill.py:108:64: W292 no newline at end of file
+nucleus/skills/duckduckgo_skill.py:3:1: E302 expected 2 blank lines, found 1
+nucleus/skills/duckduckgo_skill.py:11:80: E501 line too long (80 > 79 characters)
+nucleus/skills/duckduckgo_skill.py:16:80: E501 line too long (82 > 79 characters)
+nucleus/skills/duckduckgo_skill.py:18:80: E501 line too long (90 > 79 characters)
+nucleus/skills/duckduckgo_skill.py:44:79: W292 no newline at end of file
+nucleus/skills/echo_skill.py:3:1: E302 expected 2 blank lines, found 1
+nucleus/skills/echo_skill.py:12:80: E501 line too long (112 > 79 characters)
+nucleus/skills/echo_skill.py:16:54: W292 no newline at end of file
+nucleus/skills/heartbeat_skill.py:4:1: E302 expected 2 blank lines, found 1
+nucleus/skills/heartbeat_skill.py:42:80: E501 line too long (87 > 79 characters)
+nucleus/skills/heartbeat_skill.py:69:42: W292 no newline at end of file
+nucleus/skills/image_annotation_skill.py:7:1: E302 expected 2 blank lines, found 1
+nucleus/skills/image_annotation_skill.py:9:80: E501 line too long (111 > 79 characters)
+nucleus/skills/image_annotation_skill.py:15:80: E501 line too long (103 > 79 characters)
+nucleus/skills/image_annotation_skill.py:27:80: E501 line too long (97 > 79 characters)
+nucleus/skills/image_annotation_skill.py:43:80: E501 line too long (87 > 79 characters)
+nucleus/skills/image_annotation_skill.py:61:80: E501 line too long (84 > 79 characters)
+nucleus/skills/image_annotation_skill.py:62:80: E501 line too long (89 > 79 characters)
+nucleus/skills/image_annotation_skill.py:88:33: W292 no newline at end of file
+nucleus/skills/image_generator_skill.py:4:1: F401 'asyncio' imported but unused
+nucleus/skills/image_generator_skill.py:11:1: E302 expected 2 blank lines, found 1
+nucleus/skills/image_generator_skill.py:17:80: E501 line too long (134 > 79 characters)
+nucleus/skills/image_generator_skill.py:20:80: E501 line too long (85 > 79 characters)
+nucleus/skills/image_generator_skill.py:28:80: E501 line too long (85 > 79 characters)
+nucleus/skills/image_generator_skill.py:124:20: W292 no newline at end of file
+nucleus/skills/ingest_anything_skill.py:3:1: E302 expected 2 blank lines, found 1
+nucleus/skills/ingest_anything_skill.py:5:80: E501 line too long (95 > 79 characters)
+nucleus/skills/ingest_anything_skill.py:6:80: E501 line too long (102 > 79 characters)
+nucleus/skills/ingest_anything_skill.py:11:80: E501 line too long (96 > 79 characters)
+nucleus/skills/ingest_anything_skill.py:23:80: E501 line too long (86 > 79 characters)
+nucleus/skills/ingest_anything_skill.py:30:80: E501 line too long (86 > 79 characters)
+nucleus/skills/ingest_anything_skill.py:39:80: E501 line too long (95 > 79 characters)
+nucleus/skills/ingest_anything_skill.py:49:80: E501 line too long (123 > 79 characters)
+nucleus/skills/ingest_anything_skill.py:50:25: E128 continuation line under-indented for visual indent
+nucleus/skills/ingest_anything_skill.py:50:80: E501 line too long (121 > 79 characters)
+nucleus/skills/ingest_anything_skill.py:54:80: E501 line too long (131 > 79 characters)
+nucleus/skills/ingest_anything_skill.py:56:70: W292 no newline at end of file
+nucleus/skills/moderation_skill.py:5:1: E302 expected 2 blank lines, found 1
+nucleus/skills/moderation_skill.py:7:80: E501 line too long (81 > 79 characters)
+nucleus/skills/moderation_skill.py:8:80: E501 line too long (94 > 79 characters)
+nucleus/skills/moderation_skill.py:9:80: E501 line too long (89 > 79 characters)
+nucleus/skills/moderation_skill.py:15:80: E501 line too long (115 > 79 characters)
+nucleus/skills/moderation_skill.py:20:80: E501 line too long (99 > 79 characters)
+nucleus/skills/moderation_skill.py:29:80: E501 line too long (113 > 79 characters)
+nucleus/skills/moderation_skill.py:32:80: E501 line too long (83 > 79 characters)
+nucleus/skills/moderation_skill.py:36:80: E501 line too long (83 > 79 characters)
+nucleus/skills/moderation_skill.py:39:80: E501 line too long (80 > 79 characters)
+nucleus/skills/moderation_skill.py:45:80: E501 line too long (112 > 79 characters)
+nucleus/skills/moderation_skill.py:53:80: E501 line too long (175 > 79 characters)
+nucleus/skills/moderation_skill.py:62:80: E501 line too long (85 > 79 characters)
+nucleus/skills/moderation_skill.py:66:80: E501 line too long (91 > 79 characters)
+nucleus/skills/moderation_skill.py:129:23: W292 no newline at end of file
+nucleus/skills/prompt_router_skill.py:3:1: E302 expected 2 blank lines, found 1
+nucleus/skills/prompt_router_skill.py:5:68: W291 trailing whitespace
+nucleus/skills/prompt_router_skill.py:6:66: W291 trailing whitespace
+nucleus/skills/prompt_router_skill.py:13:80: E501 line too long (103 > 79 characters)
+nucleus/skills/prompt_router_skill.py:42:80: E501 line too long (166 > 79 characters)
+nucleus/skills/prompt_router_skill.py:43:80: E501 line too long (217 > 79 characters)
+nucleus/skills/prompt_router_skill.py:45:80: E501 line too long (94 > 79 characters)
+nucleus/skills/prompt_router_skill.py:49:80: E501 line too long (85 > 79 characters)
+nucleus/skills/prompt_router_skill.py:52:80: E501 line too long (104 > 79 characters)
+nucleus/skills/prompt_router_skill.py:53:80: E501 line too long (116 > 79 characters)
+nucleus/skills/prompt_router_skill.py:63:80: E501 line too long (93 > 79 characters)
+nucleus/skills/prompt_router_skill.py:70:80: E501 line too long (81 > 79 characters)
+nucleus/skills/prompt_router_skill.py:71:80: E501 line too long (83 > 79 characters)
+nucleus/skills/prompt_router_skill.py:72:13: E306 expected 1 blank line before a nested definition, found 0
+nucleus/skills/prompt_router_skill.py:76:26: W292 no newline at end of file
+nucleus/ui.py:5:5: F401 'PyQt6.QtWidgets.QSpinBox' imported but unused
+nucleus/ui.py:5:5: F401 'PyQt6.QtWidgets.QCheckBox' imported but unused
+nucleus/ui.py:5:5: F401 'PyQt6.QtWidgets.QHBoxLayout' imported but unused
+nucleus/ui.py:5:5: F401 'PyQt6.QtWidgets.QGroupBox' imported but unused
+nucleus/ui.py:5:5: F401 'PyQt6.QtWidgets.QFormLayout' imported but unused
+nucleus/ui.py:5:80: E501 line too long (206 > 79 characters)
+nucleus/ui.py:13:1: E302 expected 2 blank lines, found 1
+nucleus/ui.py:32:80: E501 line too long (82 > 79 characters)
+nucleus/ui.py:39:1: E305 expected 2 blank lines after class or function definition, found 1
+nucleus/ui.py:83:80: E501 line too long (86 > 79 characters)
+nucleus/ui.py:92:80: E501 line too long (86 > 79 characters)
+nucleus/ui.py:98:1: E302 expected 2 blank lines, found 1
+nucleus/ui.py:100:80: E501 line too long (83 > 79 characters)
+nucleus/ui.py:106:25: W292 no newline at end of file
+nucleus/ui_server.py:2:1: F401 'asyncio' imported but unused
+nucleus/ui_server.py:17:1: E302 expected 2 blank lines, found 1
+nucleus/ui_server.py:28:80: E501 line too long (90 > 79 characters)
+nucleus/ui_server.py:29:80: E501 line too long (92 > 79 characters)
+nucleus/ui_server.py:33:80: E501 line too long (87 > 79 characters)
+nucleus/ui_server.py:44:80: E501 line too long (99 > 79 characters)
+nucleus/ui_server.py:51:80: E501 line too long (81 > 79 characters)
+nucleus/ui_server.py:53:52: W292 no newline at end of file
+nucleus/utils.py:3:80: E501 line too long (86 > 79 characters)
+nucleus/utils.py:8:1: F401 'asyncio' imported but unused
+nucleus/utils.py:10:1: E302 expected 2 blank lines, found 1
+nucleus/utils.py:16:1: E302 expected 2 blank lines, found 1
+nucleus/utils.py:18:80: E501 line too long (88 > 79 characters)
+nucleus/utils.py:29:1: E302 expected 2 blank lines, found 1
+nucleus/utils.py:38:1: E302 expected 2 blank lines, found 1
+nucleus/utils.py:45:1: E302 expected 2 blank lines, found 1
+nucleus/utils.py:59:1: E302 expected 2 blank lines, found 1
+nucleus/utils.py:64:5: E306 expected 1 blank line before a nested definition, found 0
+nucleus/utils.py:70:5: E306 expected 1 blank line before a nested definition, found 0
+nucleus/utils.py:76:1: E302 expected 2 blank lines, found 1
+nucleus/utils.py:85:1: E305 expected 2 blank lines after class or function definition, found 0
+nucleus/utils.py:85:1: E402 module level import not at top of file
+nucleus/utils.py:86:1: E402 module level import not at top of file
+nucleus/utils.py:88:1: E302 expected 2 blank lines, found 1
+nucleus/utils.py:90:50: W291 trailing whitespace
+nucleus/utils.py:91:80: E501 line too long (108 > 79 characters)
+nucleus/utils.py:111:80: E501 line too long (80 > 79 characters)
+nucleus/utils.py:125:80: E501 line too long (101 > 79 characters)
+nucleus/utils.py:127:80: E501 line too long (87 > 79 characters)
+nucleus/utils.py:131:80: E501 line too long (92 > 79 characters)
+nucleus/utils.py:132:80: E501 line too long (101 > 79 characters)
+nucleus/utils.py:135:80: E501 line too long (81 > 79 characters)
+nucleus/utils.py:136:80: E501 line too long (105 > 79 characters)
+nucleus/utils.py:140:80: E501 line too long (101 > 79 characters)
+nucleus/utils.py:143:80: E501 line too long (94 > 79 characters)
+nucleus/utils.py:146:80: E501 line too long (99 > 79 characters)
+nucleus/utils.py:169:80: E501 line too long (88 > 79 characters)
+nucleus/utils.py:171:1: E305 expected 2 blank lines after class or function definition, found 0
+nucleus/utils.py:171:1: E402 module level import not at top of file
+nucleus/utils.py:172:1: E402 module level import not at top of file
+nucleus/utils.py:174:1: E302 expected 2 blank lines, found 1
+nucleus/utils.py:194:80: E501 line too long (101 > 79 characters)
+nucleus/utils.py:196:80: E501 line too long (83 > 79 characters)
+nucleus/utils.py:198:80: E501 line too long (91 > 79 characters)
+nucleus/utils.py:202:80: E501 line too long (88 > 79 characters)
+nucleus/utils.py:204:80: E501 line too long (85 > 79 characters)
+nucleus/utils.py:214:80: E501 line too long (98 > 79 characters)
+nucleus/utils.py:235:80: E501 line too long (91 > 79 characters)
+nucleus/utils.py:239:80: E501 line too long (99 > 79 characters)
+nucleus/utils.py:244:1: E305 expected 2 blank lines after class or function definition, found 0
+nucleus/utils.py:244:1: E402 module level import not at top of file
+nucleus/utils.py:245:1: F811 redefinition of unused 'logging' from line 171
+nucleus/utils.py:245:1: E402 module level import not at top of file
+nucleus/utils.py:247:1: E302 expected 2 blank lines, found 1
+nucleus/utils.py:264:80: E501 line too long (100 > 79 characters)
+nucleus/utils.py:266:80: E501 line too long (85 > 79 characters)
+nucleus/utils.py:282:80: E501 line too long (93 > 79 characters)
+nucleus/utils.py:284:80: E501 line too long (100 > 79 characters)
+nucleus/utils.py:290:80: E501 line too long (91 > 79 characters)
+nucleus/utils.py:294:80: E501 line too long (90 > 79 characters)
+nucleus/utils.py:296:80: E501 line too long (81 > 79 characters)
+nucleus/utils.py:299:80: E501 line too long (81 > 79 characters)
+nucleus/utils.py:300:80: E501 line too long (80 > 79 characters)
+nucleus/utils.py:302:80: E501 line too long (92 > 79 characters)
+nucleus/utils.py:312:80: E501 line too long (125 > 79 characters)
+nucleus/utils.py:316:80: E501 line too long (90 > 79 characters)
+nucleus/utils.py:326:80: E501 line too long (84 > 79 characters)
+nucleus/utils.py:331:80: E501 line too long (95 > 79 characters)
+nucleus/utils.py:337:1: E302 expected 2 blank lines, found 1
+nucleus/utils.py:339:80: E501 line too long (82 > 79 characters)
+nucleus/utils.py:340:80: E501 line too long (97 > 79 characters)
+nucleus/utils.py:350:80: E501 line too long (98 > 79 characters)
+nucleus/utils.py:354:80: E501 line too long (88 > 79 characters)
+nucleus/utils.py:355:80: E501 line too long (85 > 79 characters)
+nucleus/utils.py:356:80: E501 line too long (155 > 79 characters)
+nucleus/utils.py:368:80: E501 line too long (82 > 79 characters)
+nucleus/utils.py:373:80: E501 line too long (100 > 79 characters)
+nucleus/utils.py:374:80: E501 line too long (90 > 79 characters)
+nucleus/utils.py:376:80: E501 line too long (106 > 79 characters)
+nucleus/utils.py:378:72: W292 no newline at end of file
+nucleus/validator.py:9:1: E302 expected 2 blank lines, found 1
+nucleus/validator.py:22:1: E302 expected 2 blank lines, found 1
+nucleus/validator.py:43:1: E302 expected 2 blank lines, found 1
+nucleus/validator.py:58:1: E302 expected 2 blank lines, found 1
+nucleus/validator.py:79:80: E501 line too long (80 > 79 characters)
+nucleus/validator.py:88:74: W292 no newline at end of file
+nucleus/vector_db.py:4:1: E302 expected 2 blank lines, found 1
+nucleus/vector_db.py:19:80: E501 line too long (81 > 79 characters)
+nucleus/vector_db.py:24:51: W292 no newline at end of file
